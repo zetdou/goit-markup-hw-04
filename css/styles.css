@@ -237,7 +237,7 @@ ol {
 }
 
 .footer-logo-text {
-  gap: 120px;
+  margin-right: 120px;
 }
 
 .footer-icon {
@@ -310,7 +310,10 @@ ol {
 .title {
   padding-top: 188px;
   padding-bottom: 188px;
-  background-image: linear-gradient(var(--GREY), var(--GREY)),
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     url(../images/people-office.jpg);
   background-repeat: no-repeat;
   max-width: 1440px;
@@ -454,12 +457,12 @@ ol {
   display: flex;
   justify-content: center;
   padding-top: 8px;
+  gap: 24px;
 }
 
 .social-icons-list-item {
   width: 40px;
   height: 40px;
-  gap: 24px;
 }
 
 .social-icons-link {
@@ -513,7 +516,7 @@ ol {
 }
 
 .card-list-item a:hover,
-.card-list-item a:active {
+.card-list-item a:focus {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
