@@ -255,10 +255,6 @@ ol {
 }
 
 .title {
-  background-image: linear-gradient(to right, #141e30, #243b55),
-    url(./images/people-office.jpg);
-  background-size: 1440px;
-  background-repeat: no-repeat;
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -330,6 +326,10 @@ ol {
 
 .section-title-index {
   padding: 188px 0;
+  background-image: linear-gradient(to right, #141e30, #243b55),
+    url(./images/people-office.jpg);
+  background-size: 1440px;
+  background-repeat: no-repeat;
 }
 
 .section-index {
