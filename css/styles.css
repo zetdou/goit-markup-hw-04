@@ -425,7 +425,6 @@ ol {
 .card-list-item {
   display: flex;
   width: 360px;
-  padding-bottom: 32px;
   gap: 32px;
   width: calc((100% - 48px) / 3);
 }
